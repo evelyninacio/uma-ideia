@@ -2,7 +2,7 @@ import { useState } from "react";
 function Home() {
   return (
     <div>
-      <h1>Bem-vindo a minha página</h1>
+      <h1>Página Inicial</h1>
       <p>Teste.</p>
       <Contador />
     </div>
