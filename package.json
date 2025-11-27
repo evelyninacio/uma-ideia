@@ -1,0 +1,26 @@
+{
+  "name": "uma-ideia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evelyninacio/uma-ideia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/evelyninacio/uma-ideia/issues"
+  },
+  "homepage": "https://github.com/evelyninacio/uma-ideia#readme",
+  "dependencies": {
+    "next": "^16.0.5",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  }
+}
