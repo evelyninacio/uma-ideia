@@ -7,20 +7,21 @@ function Tempo({ staticDateString }) {
       <h1>Tempo Page</h1>
       {dynamicDateString}(dinamico)
         <br />
-      {staticDateString}(estatico com delay)
+      {staticDateString}(estatico)
     </div>
   );
 }
 
 export async function getStaticProps() {
     console.log("Passando pelo getStaticProps");
-    console.log("Delay de 5 segundos");
+    //console.log("Delay de 5 segundos");
 
-    await delay(5000);
+    //await delay(5000);
     const staticDate = new Date();
     const staticDateString = staticDate.toGMTString();
   return {
     props: { staticDateString },
+    revalidate: 1
   };
 }
 const delay = ms => new Promise(res => setTimeout(res, ms));
